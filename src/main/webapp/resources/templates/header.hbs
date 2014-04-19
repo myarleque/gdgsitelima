@@ -1,0 +1,36 @@
+
+<div class="navbar navbar-inverse navbar-fixed-top">
+
+<div class="color_bar"></div>
+    <div class="container" id="top_bar">
+        <div class="pull-left">
+            <img src="{{logo.src}}" class="pull-left" alt="{{logo.alt}}"/>
+ 
+        </div>
+    
+    </div>
+
+
+   
+     <div class="navbar-inner" id="navbar">
+        <div class="container">
+            <div class="nav-collapse collapse">
+                <ul class="nav">
+
+                   {{#each enlaces}}
+                {{#if show}}
+        	<li>
+    					<a data-id="{{id}}">{{text}}</a>
+					</li>
+                       {{/if}}
+            {{/each}}
+                </ul>
+            </div>
+
+        </div>
+    </div>
+
+
+
+</div>
+

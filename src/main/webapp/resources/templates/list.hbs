@@ -1,0 +1,19 @@
+<div class="row">
+    {{#each list}}
+        <div class="col-md-3">
+            <div class="thumbnail item">
+                <a href="#details/{{id}}">
+                    <img alt="{{name}}" src="{{url}}">
+                </a>
+                <h5><a href="#details/{{id}}">{{name}}</a></h5>
+                <p>{{producer}}</p>
+                <div class="info-days">
+                    <div class="left">
+                        {{stars}} estrellas / {{price}}
+                    </div>
+                    <div class="clear"></div>
+                </div>
+            </div>
+        </div>
+    {{/each}}
+</div>

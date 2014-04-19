@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<groups xmlns="http://www.isdc.ro/wro" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.isdc.ro/wro wro.xsd">
+    <group name="css-all">
+        <css>/css/app/*.css</css>
+    </group>
+    <group name="app-all">
+        <js>/js/templates-all.js</js>
+        <js>/js/app/models/**.js</js>
+        <js>/js/app/util/**.js</js>
+        <js>/js/app/views/**.js</js>
+        <js>/js/app/controllers/**.js</js>
+        <js>/js/app/routers/**.js</js>
+    </group>
+    <group name="templates-all">
+        <js>/templates/**.hbs</js>
+    </group>
+</groups>

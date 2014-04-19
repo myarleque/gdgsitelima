@@ -1,0 +1,18 @@
+<div class="popup-window modal {{ctClass}}">
+  <div class="modal-dialog">
+    <div class="modal-content">
+        <div class="modal-header">
+            <h4>{{title}}</h4>
+        </div>
+        <div class="modal-body">
+        </div>
+        <div class="popup-window-footer modal-footer">
+            <div class="main-buttons">
+            {{#each buttons}}
+                <a href="javascript:void(0);" id="{{id}}" class="popup-window-footer-btn btn btn-small {{#if primary}} btn-primary {{/if}} {{#unless primary}}btn-danger{{/unless}} {{#if hidden}}hidden-button{{/if}} ">{{name}}</a>
+            {{/each}}
+            </div>
+        </div>
+     </div>
+   </div>
+</div>
